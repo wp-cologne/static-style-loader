@@ -4,6 +4,8 @@
 
 It works by enqueuing the generated CSS files that remain in your WordPress uploads directory (`/wp-content/uploads/automatic-css/`).
 
+[![Download](https://img.shields.io/badge/Download-v0.1-blue)](https://github.com/wp-cologne/static-style-loader/releases/download/v0.1/static-style-loader.zip)
+
 ## Features
 * **Zero Configuration:** Just install and activate.
 * **Gutenberg Ready:** Loads `automatic-gutenberg.css` for block editor compatibility.
@@ -24,10 +26,12 @@ When deleting the original ACSS plugin, ensure that it does not clean up/delete 
 
 ## Installation
 
-1.  Upload the `static-style-loader` folder to the `/wp-content/plugins/` directory.
-2.  Activate the plugin through the 'Plugins' menu in WordPress.
-3.  Deactivate the original Automatic.css plugin.
-4.  Check your frontend to ensure styles are loading correctly.
+1.  Download the `.zip` file from the link above.
+2.  In your WordPress Admin, go to **Plugins > Add New > Upload Plugin**.
+3.  Select the downloaded zip file and click **Install Now**.
+4.  **Activate** the plugin.
+5.  Deactivate and remove the original Automatic.css plugin.
+6.  Check your frontend to ensure styles are loading correctly.
 
 ## How it works
 
