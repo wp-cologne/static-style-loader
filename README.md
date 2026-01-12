@@ -1,10 +1,11 @@
 # Static Style Loader
 
+[![Download](https://img.shields.io/badge/Download-v0.1-blue)](https://github.com/wp-cologne/static-style-loader/releases/download/v0.1/static-style-loader.zip) Installable WordPress Plugin
+
 **Static Style Loader** is a lightweight preservation plugin designed to keep Automatic.css (ACSS) styles active on your website after the original ACSS plugin has been deactivated or removed. 
 
 It works by enqueuing the generated CSS files that remain in your WordPress uploads directory (`/wp-content/uploads/automatic-css/`).
 
-[![Download](https://img.shields.io/badge/Download-v0.1-blue)](https://github.com/wp-cologne/static-style-loader/releases/download/v0.1/static-style-loader.zip)
 
 ## Features
 * **Zero Configuration:** Just install and activate.
